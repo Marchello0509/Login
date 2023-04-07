@@ -86,6 +86,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Roboto';
 }
 
 .rememb {
@@ -102,4 +103,34 @@ body {
 .forget {
     color: #153416;
     font: 12px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-bottom:2px solid #15341600;
+    font-size: 12px;
+    margin: 4px 0 0 0;
 }
+
+.forget:hover {
+    border-bottom:2px solid #153416;
+    transition-duration: 0.7s
+}
+
+.btn2 {
+    width: 340px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+}
+
+.button2 {
+    width: 360px;
+    height: 44px;
+    background: #153416;
+    border-radius: 30px;
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    padding-left: 23px;
+}
+
