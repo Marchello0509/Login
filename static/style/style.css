@@ -134,3 +134,45 @@ body {
     padding-left: 23px;
 }
 
+.newAcc {
+    width: 340px;
+    margin: 20px auto 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+
+.newAcc > p {
+    color: #153416;
+    font-size: 12px;
+}
+
+.Reg {
+    font-size: 12px;
+    width: 102px;
+    height: 14px;
+    color: #FFFFFF;
+    border-bottom:2px solid #15341600;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+
+.Reg:hover {
+    border-bottom:2px solid #FFFFFF;
+    transition-duration: 0.7s
+}
+
+.Lg2 {
+    font-size: 12px;
+    font-family: 'Roboto';
+    text-align: center;
+    color: #153416;
+    margin: 30px auto;
+}
+
+.internet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
